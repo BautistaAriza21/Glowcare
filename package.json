@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.4.17"
+  },
+  "scripts": {
+    "start-glowcare": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css"
   }
 }
